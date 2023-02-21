@@ -1,4 +1,4 @@
-class persona{
+export default class Persona{
     constructor(nombre,edad,genero,estatura){
         this.nombre = nombre;
         this.edad = edad;
@@ -27,18 +27,3 @@ class persona{
         console.log(`${this.nombre}, se encuentra durmiendo, no molestar.`)
     }
 }
-
-const marcos = new Persona('Marcos Rodríguez',50,'Masculino',170);
-const martha = new Persona('Martha Bañuelos',20,'Femenina',162);
-marcos.saludar();
-martha.saludar();
-
-marcos.comer();
-marcos.dormir();
-martha.comer();
-
-marcos.nombrePersona = 'Marcos Fernández';
-
-marcos.saludar();
-
-console.log(marcos.nombrePersona)
