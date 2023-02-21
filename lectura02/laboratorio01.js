@@ -1,9 +1,19 @@
-class Persona{
+class persona{
     constructor(nombre,edad,genero,estatura){
         this.nombre = nombre;
         this.edad = edad;
         this.genero = genero;
         this.estatura = estatura;
+    }
+
+    //Métodos get
+    get nombrePersona(){
+        return this.nombre;
+    }
+
+    //Métodos set
+    set nombrePersona(nombre){
+        this.nombre = nombre;
     }
 
     saludar(){
@@ -26,3 +36,9 @@ martha.saludar();
 marcos.comer();
 marcos.dormir();
 martha.comer();
+
+marcos.nombrePersona = 'Marcos Fernández';
+
+marcos.saludar();
+
+console.log(marcos.nombrePersona)
