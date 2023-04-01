@@ -4,7 +4,7 @@ import Triangulo from "./src/Triangulo.js";
 import Figura from "./src/Figura.js";
 
 const figura = new Figura();
-const cuadrado = new Cuadrado();
+const cuadrado = new Cuadrado('Cuadrado');
 const triangulo = new Triangulo();
 const rectangulo = new Rectangulo()
 
