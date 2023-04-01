@@ -1,7 +1,8 @@
 import Figura from "./Figura.js";
 
 export default class Cuadrado extends Figura{
-    areaFigura(){
-        console.log('Yo calculo el área de cuadrado')
+    areaFigura(lado,unidad){
+        let area = lado * lado;
+        console.log(`El área del cuadrado es: ${area} ${unidad}`)
     }
 }

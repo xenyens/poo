@@ -10,6 +10,6 @@ const rectangulo = new Rectangulo()
 
 
 figura.areaFigura();
-cuadrado.areaFigura();
-triangulo.areaFigura();
-rectangulo.areaFigura();
+cuadrado.areaFigura(5,'pies');
+triangulo.areaFigura(10,5);
+rectangulo.areaFigura(10,20);
